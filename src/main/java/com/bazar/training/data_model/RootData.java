@@ -23,7 +23,7 @@ public class RootData {
 	
 
 	public  Map buildDataModel() {
-		Map<String, Object> root = new HashMap<>();
+		Map<String, Object> root = new HashMap<String, Object>();
 		root.put("user", "Big Joe");
 		
 		// Create the "latestProduct" hash. We use a JavaBean here, but it could be a Map too.

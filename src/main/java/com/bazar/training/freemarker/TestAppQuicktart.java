@@ -1,4 +1,4 @@
-package com.bazar.training.main;
+package com.bazar.training.freemarker;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -13,7 +13,7 @@ import freemarker.template.TemplateExceptionHandler;
 
 public class TestAppQuicktart {
 
-	public static void main(String[] args) throws IOException, TemplateException {
+	public static void execute() throws IOException, TemplateException {
 		/* Create and adjust the configuration singleton */
 		Intro.setConfig();
 		
