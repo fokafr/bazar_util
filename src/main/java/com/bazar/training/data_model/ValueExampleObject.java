@@ -1,4 +1,4 @@
-package com.bazar.training.freemarker;
+package com.bazar.training.data_model;
 
 public class ValueExampleObject {
     private String name;
