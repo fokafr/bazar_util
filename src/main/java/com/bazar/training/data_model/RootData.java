@@ -71,13 +71,13 @@ public class RootData {
 		 * in this data-model, animals and misc.fruits are sequences:
 		 */
 		
-		List animalsSeq = new ArrayList<Animal>();
+		List<Animal> animalsSeq = new ArrayList<Animal>();
 		animalsSeq.add(mouse);
 		animalsSeq.add(elephant);
 		animalsSeq.add(python);
-		root.put("animalsSeq",animalsSeq);
+		root.put("animalsSequence",animalsSeq);
 		
-		List fruits = new ArrayList<String>();
+		List<String> fruits = new ArrayList<String>();
 		fruits.add("orange");
 		fruits.add("banana");
 		

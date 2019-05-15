@@ -20,6 +20,26 @@
 	<#else>
 	  Elephants and pythons cost the same today.
 	</#if>
+	
+The list directive
+	
+<p>We have these animals:
+
+<table border=1>
+  <#list animalsSequence as animal>
+    <tr><td>${animal.size}<td>${animal.price} Euros
+  </#list>
+</table>
+
+Listing of fruits
+
+<ul>
+<#list miscSeq.fruits as fruit>
+  <li>${fruit}
+</#list>
+</ul>
+
+
 
 </body>
 </html>

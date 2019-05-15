@@ -55,7 +55,7 @@ public class FreeMarkerMainTest {
 	        systems.add(new ValueExampleObject("iOS States", "Apple"));
 	        systems.add(new ValueExampleObject("Ubuntu", "Canonical"));
 	        systems.add(new ValueExampleObject("Windows7", "Microsoft"));
-	        input.put("systems", systems);
+	        input.put("syst", systems);
 
 	        // 2.2. Get the template
 
