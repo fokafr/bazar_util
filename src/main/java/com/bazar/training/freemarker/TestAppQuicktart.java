@@ -21,7 +21,8 @@ public class TestAppQuicktart {
 	   //RootData rootdata = new RootData();
 		
 		/* Get the template (uses cache internally) */
-		Template templ = Intro.setConfig().getTemplate("test.ftlh");
+		//Template templ = Intro.setConfig().getTemplate("test.ftlh");
+		Template templ = Intro.setConfig().getTemplate("macro.ftlh");
         
         /*  /* Create a data-model, Merge data-model with template */
         Writer out = new OutputStreamWriter(System.out);
